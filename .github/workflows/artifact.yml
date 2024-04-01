@@ -10,7 +10,7 @@ jobs:
   steps:
     - name: checkout the code
       uses: actions/checkout@v2
-    - nane: Upload the Artifact
+    - name: Upload the Artifact
       uses: actions/upload-artifact@v2
       with:
         name: ${{ env.ARTIFACT_NAME }}
